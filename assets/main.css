@@ -52,6 +52,7 @@ img.logo {
 }
 .mobile-menu {
     display: none;
+    transition: 2s ease-in;
 }
 .display {
     display: block;
@@ -59,7 +60,7 @@ img.logo {
 }
 
 /* Media Query */
-@media (max-width: 480px){
+@media (max-width: 760px){
     header {
         justify-content: space-between;
     }
@@ -79,9 +80,12 @@ img.logo {
         font-size: 19px;
         padding-bottom: 20px;
         padding-top: 30px;
-        transition: 2s;
+    }
+    ul.mobile {
+        transition: 4s;
     }
     ul.mobile li {
         margin-bottom: 21px;
+        transition: 4s;
     }
 }
